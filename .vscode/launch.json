@@ -21,6 +21,10 @@
             "request": "attach",
             "name": "Attach by Process ID",
             "processId": "${command:PickProcess}",
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/ice/w2a/node_index.js",
             "skipFiles": [
                 "<node_internals>/**"
             ]
@@ -30,6 +34,7 @@
             "request": "launch",
             "name": "Launch Chrome against localhost",
             "url": "http://localhost:8081",
+            "url": "http://localhost:8000",
             "webRoot": "${workspaceFolder}/ice/w2a"
         }
     ]
