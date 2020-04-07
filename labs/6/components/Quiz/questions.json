@@ -1,0 +1,111 @@
+[
+  {
+    "question": "What is the color of the sky?",
+    "possibleAnswers":
+    [
+      {"text":"blue",
+      "correct":true 
+      },
+
+      {"text": "yellow",
+        "correct":false
+      },
+
+      {"text": "red",
+        "correct":false
+      },
+
+      {"text": "black",
+        "correct":false
+      }
+    ]
+  }
+,
+  {
+    "question": "What year is it?",
+    "possibleAnswers":
+    [
+      {"text":"2047",
+        "correct":false 
+        },
+  
+        {"text": "2020",
+          "correct":true
+        },
+  
+        {"text": "1742",
+          "correct":false
+        },
+  
+        {"text": "2019",
+          "correct":false
+        }
+    ]
+  }
+,
+  {
+    "question": "What is the best animal?",
+    "possibleAnswers":
+    [
+      {"text":"cat",
+        "correct":false 
+        },
+
+        {"text": "horse",
+          "correct":false
+        },
+
+        {"text": "tiger",
+          "correct":false
+        },
+
+        {"text": "dog",
+          "correct":true
+        }
+    ]
+  }
+,
+  {
+    "question": "What is the name of the main character of Harry Potter?",
+    "possibleAnswers":
+    [
+      {"text":"Ron Weasley",
+        "correct":false 
+        },
+
+        {"text": "Hagrid",
+          "correct":false
+        },
+
+        {"text": "Harry Potter",
+          "correct":true
+        },
+
+        {"text": "Sirus Black",
+          "correct":false
+        }
+    ]
+  }
+,
+  {
+    "question": "How many parks does Walt Disney World have?",
+    "possibleAnswers":
+    [
+      {"text":"3",
+        "correct":false 
+        },
+
+        {"text": "5",
+          "correct":false
+        },
+
+        {"text": "1",
+          "correct":false
+        },
+
+        {"text": "4",
+          "correct":true
+        }
+    ]
+  }
+]
